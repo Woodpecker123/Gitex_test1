@@ -1,0 +1,14 @@
+./importSASPackages --sas-viya-path "/saswork/ContentAssessment/assessment/sas-viya" --profile viya  --source-location "/saswork/ContentAssessment/stp/"
+
+
+./importSASPackages --sas-viya-path "/saswork/ContentAssessment/assessment/sas-viya" 
+
+
+
+  --source-location "/saswork/ContentAssessment/stp/"
+
+
+
+./sas-viya --profile viya profile init
+
+./sas-viya --profile viya auth login
